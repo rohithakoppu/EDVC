@@ -1,0 +1,6 @@
+{
+  "name": "Campus Grid",
+  "description": "Shared AI computing network connecting idle university laboratories, servers, and student workstations for AI/ML workloads with intelligent scheduling and compute credits.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

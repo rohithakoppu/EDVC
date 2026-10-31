@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-heading: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    --font-mono: 'IBM Plex Mono', monospace;
+    
+    --color-canvas: #FAFBF7;
+    --color-surface: #FFFFFF;
+    --color-forest: #18845B;
+    --color-mint: #B8F0D2;
+    --color-skyblue: #65BDEB;
+    --color-royalblue: #4267D5;
+    --color-lavender: #B9A5F5;
+    --color-orange: #FFAD70;
+    --color-yellow: #FFE49A;
+    --color-coral: #FF8E8E;
+    --color-text-main: #20332D;
+    --color-text-muted: #65756F;
+    --color-border: #E6ECE7;
+  }
+
+  body {
+    font-family: var(--font-body);
+    background-color: var(--color-canvas);
+    color: var(--color-text-main);
+  }
+
+  h1, h2, h3, h4, h5, h6, .font-heading {
+    font-family: var(--font-heading);
+    letter-spacing: -0.02em;
+  }
+
+  .font-mono, .device-spec, code, pre {
+    font-family: var(--font-mono);
+  }
+}
+
+/* Custom smooth scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FAFBF7;
+}
+::-webkit-scrollbar-thumb {
+  background: #D5DDD7;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #18845B;
+}
